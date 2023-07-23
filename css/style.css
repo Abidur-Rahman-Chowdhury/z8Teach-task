@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-background{
+    border-bottom: 1px solid #d2d6da;
+
+    background-color: #4e73b7;
+}
+
+.logo-image {
+    width: 238px;
+    height: 35px;
+}
+
+.form-icon {
+   margin-right: 5px;
+}
+
+.second-header {
+    background-color: #f3f6f8;
+} 
+
+.item-text:not(:last-child) {
+    color: black;
+    border-right: 1px solid black;
+}
+
+.first-section-heading   {
+    padding-top: 50px;
+    color: #2aa527;
+    font-size: 48px;
+}
+.first-section-pricing {
+    font-size: 24px;
+    color: black;
+    line-height: 1.75;
+    padding-top: 16px;
+    
+}
+
+.first-section-pricing span {
+    color: #2aa527;
+    font-weight: bold;
+
+}
+.favorite-section {
+    content: url(https://static.hugedomains.com/images/hdv3-img/favorite-header.png);
+    display: block;
+    height: 23px;
+    width: 25px;
+    margin-right: 9px;
+}
+.favorite-text {
+    font-size: 17px;
+}
+.second-section {
+    position: sticky;
+    margin-top: 40px;
+    top: 20px;
+}
+.section-2 {
+    border: 1px solid #d9dce1;
+    background-color: #f3f6f8;
+    padding: 20px 25px;
+    max-width: 325px;
+}
+
+.section-2 h1 {
+    font-size: 21px;
+    color: #2aa527;
+}
+.text-buy {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75;
+}
+.price-text {
+    font-size: 20px;
+    color: #2aa527;
+    font-weight: 500;
+}
+.buy-btn + span {
+    font-size: 20px;
+}
+.buy-btn {
+    background: #2aa527;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    color: white;
+}
+.payment-btn + span {
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.section2-content {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.section2-content p {
+    font-size: 20px;
+}
+
+.text-question {
+    font-size: 17px;
+
+}
+.text-question span {
+    color: #4486de;
+}
+
+.heading-section-2 {
+    color: #4486de;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+
+  .container-blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+  }
+  
+  .circle-1 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    background-color: #3a86ff; /* Set the background color for the circle */
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 10px; /* Add some space between the circle and content div */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+  }
+  .content blockquote::before {
+   
+    content: url(https://static.hugedomains.com/images/hdv3-img/test-content-img-left.png);
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+.content blockquote::after {
+    content: url(https://static.hugedomains.com/images/hdv3-img/test-content-img-right.png);
+    position: absolute;
+    margin-top: -5px;
+    
+}
+  
+  
+  blockquote {
+    padding: 24px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .content .footer-text {
+    margin-top: -40px;
+    margin-left: 25px;
+    color: #85929e;
+  }
+ 
+  .circle-2 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    background-color: #0047af; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+  .circle-3 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    background-color: #830000; 
+    border-radius: 50%; 
+    margin-right: 10px;
+  }
+  .circle-4 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    background-color: #89969f; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+  .circle-5 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    background-color: #2aa527; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+
+  .link-2  {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+    
+  }
+  .link {
+    text-decoration: none;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+.footer-item-container {
+    max-width: 888px;
+    margin: 0 auto;
+}
+
+  .footer-section {
+    background: #4e73b7;
+    padding: 65px 0;
+  }
+
+  .footer-link {
+    color: white;
+    font-size: 18px;
+  }
+  .footer-link:hover {
+    color: white;
+  } 
+
+  .footer-divider {
+    max-width: 1171px;
+    color: white;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 30px;
+  }
+  .footer-last-content {
+    margin-top: 80px;
+  }
